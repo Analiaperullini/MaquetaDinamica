@@ -1,0 +1,97 @@
+/*navbar*/
+.bg-black{
+	background-color: #000000;
+}
+.list-group{
+	--bs-list-group-bg:transparent;
+}
+.fa-brands.fa-github.fa-2x:hover{
+	--bs-text-opacity: 1;
+	color: #06d85d !important;
+}
+.barra-lateral{
+	display: block;
+	background-color: #000000;
+	padding: 1em;
+	max-height: 100vh;
+	margin-top: 0;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.perfil{
+	width: 70%;
+}
+
+.link{
+	text-decoration: none;
+	color: #000000;
+}
+.intro{
+	font-size: 2rem;
+	
+}
+.admin{
+	font-size: 1.5rem;
+}
+
+.intro:hover{
+	color: #a18707;
+}
+
+.text-white:hover{
+	color: #a18707;
+}
+
+.fa-solid{
+	color:#181402;
+}
+
+.fa-solid:hover{
+	color:#836e06;
+}
+/*panel*/
+nav.vertical {
+  float: left;
+   margin-left: 0.5rem;
+	 margin-top: 1.5rem;
+	 
+}
+
+li.vertical {
+  display: block;
+  margin: 0;
+  writing-mode: vertical;
+  padding: 0.75rem 0;
+	font-size: 1.25rem;
+	 }
+
+a, a:hover {
+   text-decoration: none;
+	 color: #000000;
+}
+
+.last{
+	padding-bottom: 4rem;
+}
+footer.bg-black {
+	width: 100%;
+	height: 7%;
+	padding: 0.5rem;
+	position: fixed;
+	bottom: 0;
+}
+
+@media(max-width: 767px){
+	footer{
+			width: 50%;
+			margin-bottom: auto;
+		}
+	}
+	@media(max-width: 574px){
+
+		footer{
+			width: 25%;
+			margin-bottom: auto;
+		}
+		 }	

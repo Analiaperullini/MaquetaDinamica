@@ -1,0 +1,49 @@
+/*navbar*/
+.bg-black{
+	background-color: #000000;
+}
+.list-group{
+	--bs-list-group-bg:transparent;
+}
+
+.fa-brands.fa-linkedin.fa-2x:hover {
+	--bs-text-opacity: 1;
+	color: #0d7ce4 !important;
+}
+.fa-brands.fa-facebook.fa-2x:hover{
+	--bs-text-opacity: 1;
+	color: #860ef7 !important;
+}
+.fa-brands.fa-github.fa-2x:hover{
+	--bs-text-opacity: 1;
+	color: #06d85d !important;
+}
+
+.login{
+	height: 75vh;
+}
+.formulario-login{
+	margin-top: 12%;
+}
+
+footer.bg-black {
+	width: 100%;
+	height: 7%;
+	padding: 0.5rem;
+	position: fixed;
+	bottom: 0;
+}
+
+@media(max-width: 767px){
+	footer{
+			width: 50%;
+			margin-bottom: auto;
+		}
+	}
+	@media(max-width: 574px){
+
+		footer{
+			width: 25%;
+			margin-bottom: auto;
+		}
+		 }	

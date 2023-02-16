@@ -1,0 +1,10 @@
+/*SKILLS*/
+.progress-bar{
+    background-color: #d1af06;
+    text-align: center;
+    --bs-progress-height: 1.5rem;
+  }
+  
+  #color{
+    background-color: #584f1f;
+  }
